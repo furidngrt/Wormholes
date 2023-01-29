@@ -76,9 +76,9 @@ rm -rf wormholes_install.sh
 ```
 wget -O wormholes_install.sh https://docker.wormholes.com/wormholes_install.sh && chmod +x wormholes_install.sh && ./wormholes_install.sh
 ```
-## paste private key again
+### paste private key again
 
-## check versi node
+### check versi node
 ```
 docker exec -it wormholes ./wormholes version|grep "Version"|grep -v go
 ```
