@@ -65,3 +65,20 @@ docker stop wormholes && docker rm wormholes && docker rmi wormholestech/wormhol
   3. Select `Become validator`
   4. Stake
   5. Done
+
+### Update wormholes
+```
+docker stop wormholes && docker rm wormholes && docker rmi wormholestech/wormholes:v1
+```
+```
+rm -rf wormholes_install.sh
+```
+```
+wget -O wormholes_install.sh https://docker.wormholes.com/wormholes_install.sh && chmod +x wormholes_install.sh && ./wormholes_install.sh
+```
+## paste private key again
+
+## check versi node
+```
+docker exec -it wormholes ./wormholes version|grep "Version"|grep -v go
+```
