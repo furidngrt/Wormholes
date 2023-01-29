@@ -83,7 +83,7 @@ wget -O wormholes_install.sh https://docker.wormholes.com/wormholes_install.sh &
 docker exec -it wormholes ./wormholes version|grep "Version"|grep -v go
 ```
 
-Check ./monitor.sh wait 30-1 hour
+#### Check `./monitor.sh` wait 30-1 hour
 
 If it doesn't work after 30-1 hour
 "Make sure docker is stopped and images are deleted"
@@ -92,7 +92,7 @@ If it doesn't work after 30-1 hour
 rm -rf /wm/.wormholes/wormholes/chaindata
 ```
 
-Then run it again 
+#### Then run it again 
 
 ```
 ./wormholes_install.sh
