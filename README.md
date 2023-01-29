@@ -73,10 +73,10 @@ docker stop wormholes && docker rm wormholes && docker rmi wormholestech/wormhol
 ```
 rm -rf wormholes_install.sh
 ```
+### paste private key again
 ```
 wget -O wormholes_install.sh https://docker.wormholes.com/wormholes_install.sh && chmod +x wormholes_install.sh && ./wormholes_install.sh
 ```
-### paste private key again
 
 ### check versi node
 ```
